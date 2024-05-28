@@ -7,6 +7,8 @@
     --vermelho2:#CE0000;
     --beje1:#FFFA8A;
     --beje2:#DBA24A;
+
+    --fonte-padrao:'Work Sans', Arial, Helvetica, sans-serif;
 }
 * {
     padding: 0;
@@ -19,7 +21,7 @@
 
 header{
     height: 100px;
-    background-color: var(--vermelho2);
+    background-color: #262626;
     justify-content: space-around;
     display: flex;
     padding-top: 27px;
@@ -34,7 +36,7 @@ nav li{
     padding: 9px;
     margin: 15px; 
     border-radius: 4px;
-    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-padrao);
     font-weight: 400;;
 }
 nav li:hover{
