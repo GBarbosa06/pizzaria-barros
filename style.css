@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
     --amarelo1:#FFF203;
@@ -6,4 +7,50 @@
     --vermelho2:#CE0000;
     --beje1:#FFFA8A;
     --beje2:#DBA24A;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+header{
+    height: 100px;
+    background-color: var(--vermelho2);
+    justify-content: space-around;
+    display: flex;
+    padding-top: 27px;
+    text-transform: uppercase;
+    font-size: large;
+}
+header nav ul{
+    display: inline-flex;
+}
+nav li{
+    list-style: none;
+    padding: 9px;
+    margin: 15px; 
+    border-radius: 4px;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;;
+}
+nav li:hover{
+    background-color: rgba(0, 0, 0, 0.075);
+    border-top: rgb(0, 0, 0) solid 3px;
+
+}
+
+nav a{
+    color: var(--beje2);
+    text-decoration: none;
+}
+.logo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: var(--amarelo1);
+    padding: 25px;
 }
