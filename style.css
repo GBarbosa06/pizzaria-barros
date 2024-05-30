@@ -14,6 +14,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 
 }
 
@@ -51,8 +52,9 @@ nav a{
     color: var(--beje2);
     text-decoration: none;
 }
-.logo hover{
-    scale: 1.1;
+.logo:hover{
+    transition: all .19s;
+    transform: scale(1.08);
 }
 .logo img{
     height: 55px;
