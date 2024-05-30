@@ -31,17 +31,19 @@ header{
 header nav ul{
     display: inline-flex;
 }
-nav li{
+nav li, nav a{
     list-style: none;
-    padding: 9px;
-    margin: 15px; 
+    padding: 8px;
+    margin: 10px; 
     border-radius: 4px;
     font-family: var(--fonte-padrao);
-    font-weight: 400;;
+    font-weight: 400;
+    
 }
-nav li:hover{
-    background-color: rgba(0, 0, 0, 0.075);
-    border-top: rgb(0, 0, 0) solid 3px;
+nav a:hover{
+    transition: all .3s;
+    color: black;
+    background-color: var(--beje1);
 
 }
 
@@ -53,6 +55,5 @@ nav a{
 
 }
 .logo img{
-    width: 100px;
-    height: 100px;
+    height: 55px;
 }
