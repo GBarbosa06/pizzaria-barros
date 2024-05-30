@@ -51,8 +51,8 @@ nav a{
     color: var(--beje2);
     text-decoration: none;
 }
-.logo{
-
+.logo hover{
+    scale: 1.1;
 }
 .logo img{
     height: 55px;
