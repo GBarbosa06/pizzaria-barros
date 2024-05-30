@@ -50,9 +50,9 @@ nav a{
     text-decoration: none;
 }
 .logo{
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background-color: var(--amarelo1);
-    padding: 25px;
+
+}
+.logo img{
+    width: 100px;
+    height: 100px;
 }
