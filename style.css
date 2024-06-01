@@ -81,3 +81,6 @@ footer{
     transform: scale(1.04);
     transition: all.1s;
 }
+footer span{
+    font-weight: 400;
+}
