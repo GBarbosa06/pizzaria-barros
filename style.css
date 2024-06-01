@@ -65,7 +65,7 @@ nav a{
 
 footer{
     text-align: center;
-    height: 350px;
+    height: 400px;
     background-color: #262626;
     color: white;
     padding-top: 50px;
@@ -76,4 +76,8 @@ footer{
     width: 64px;
     border-radius: 20px;
     margin: 30px 5px;
+}
+.redes:hover{
+    transform: scale(1.04);
+    transition: all.1s;
 }
