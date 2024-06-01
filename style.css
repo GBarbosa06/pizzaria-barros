@@ -72,6 +72,8 @@ footer{
     font-family: var(--fonte-padrao);
     font-weight: 200;
 }
-footer img{
-
+.redes{
+    width: 64px;
+    border-radius: 20px;
+    margin: 30px 5px;
 }
