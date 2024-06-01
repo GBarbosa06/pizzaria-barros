@@ -60,3 +60,18 @@ nav a{
 .logo img{
     height: 55px;
 }
+
+
+
+footer{
+    text-align: center;
+    height: 350px;
+    background-color: #262626;
+    color: white;
+    padding-top: 50px;
+    font-family: var(--fonte-padrao);
+    font-weight: 200;
+}
+footer img{
+
+}
