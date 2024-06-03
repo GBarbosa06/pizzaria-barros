@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/logo preta.png.png" type="image/x-icon">
     <style>
+
     .name{
             margin-top: 20px;
             margin-left: 390px;
@@ -18,7 +19,6 @@
             font-family: 'Times New Roman', Times, serif;
             color: rgb(245, 199, 16);
             padding-top: 50px;
-            padding-left: 500px;
         }
         
         .most{
@@ -28,11 +28,7 @@
         }
 
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 80%;
-    margin-left: 0 auto;
+    display: block;
 }
 
 .card {
@@ -43,7 +39,8 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 20px;
     margin: 20px;
-    width: 23%;
+    width: 300px;
+    height: 500px;
     text-decoration: none;
     box-sizing: border-box;
     text-align: center;
@@ -53,7 +50,7 @@
 
 .card img {
     width: 100%;
-    height: auto;
+    height: 215px;
     border-radius: 5px 5px 0 0;
 }
 
@@ -67,6 +64,7 @@
     text-align: justify;
     text-decoration: none;
     font-size: 15px;
+    height: 60px;
 }
 
 .card:hover {
@@ -92,6 +90,7 @@
     font-size: 14px;
     color: gray;
 }
+
     </style>
     <body>
         <header>
@@ -109,11 +108,11 @@
             </nav>
         </header>
 <main>
-    <h1><a class="ah1" href="cardapiorf.html">MENU RIACHO FUNDO</a></h1>
+    <h1 style="text-align: center;"><a class="ah1" href="cardapiorf.html">MENU RIACHO FUNDO</a></h1>
     <h2 class="most">Pizzas Salgadas</h2>
-    <div class="cards-container">
+    <div class="cards-container" style="text-align: center;">
         <div class="card">
-            <img style="width: 268px;" src="images/muçarela.png" alt="Delicious Pizza 1" class="card-image">
+            <img src="images/muçarela.png" alt="Imagem 2">
                     <h2>Pizza Mussarela</h2>
                     <p>Experimente a nossa pizza Margherita, uma clássica combinação de molho de tomate, queijo e manjericão fresco.</p>
                     <p class="preço">Grande | R$45,90<br>
