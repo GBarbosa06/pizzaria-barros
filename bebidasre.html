@@ -8,12 +8,98 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/logo preta.png.png" type="image/x-icon">
     <style>
-
-    </style>
+        *{
+            text-align: center;
+        }
+        .name{
+                    margin-top: 20px;
+                    text-align: center;
+                    text-decoration: none;
+                }
+                    
+                .ah1{
+                    font-family: 'Times New Roman', Times, serif;
+                    color: rgb(245, 199, 16);
+                    padding-top: 50px;
+                }
+                
+                .most{
+                    color: var(--vermelho2);
+                    font-size: 20px;
+                    text-align: center;
+                }
+        
+        .card-container {
+            display: block;
+        }
+        
+        .card {
+            display: inline-block;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px;
+            width: 300px;
+            height: 400px;
+            text-decoration: none;
+            box-sizing: border-box;
+            text-align: center;
+            transition: transform 0.2s;
+            border-color: #e0c22a;
+        }
+        
+        .card img {
+            width: 100%;
+            height: 215px;
+            border-radius: 5px 5px 0 0;
+        }
+        
+        .card h2 {
+            margin: 10px 0;
+            height: 30px;
+            text-decoration: none;
+            font-family: 'Work Sans', sans-serif;
+        }
+        
+        .card p {
+            margin: 10px 0;
+            text-align: justify;
+            text-decoration: none;
+            font-size: 15px;
+            height: 100px;
+            font-family: 'Work Sans', sans-serif;
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+        }
+        
+        .ah1{
+            text-decoration: none;
+            margin-top: 100px;
+        }
+        
+        .bottom{
+            text-decoration: none;
+            color: black;
+        }
+        
+         h2{
+            font-size: 17px;
+            text-align: justify;
+        }
+        
+        .preço{
+            font-size: 14px;
+            color: gray;
+        }
+                </style>
     <body>
         <header>
             <div class="logo">
-                <a href="#"><img src="images/texto-logo-amarela.png" alt="imagem logo"></a>
+                <a href="index.html"><img src="images/texto-logo-amarela.png" alt="imagem logo"></a>
             </div>
             <nav>
                 <ul>
@@ -26,7 +112,80 @@
             </nav>
         </header>
 <main>
-    
+    <h1><a class="ah1" href="cardapiorf.html">MENU RECANTO DAS EMAS</a></h1>
+    <h2 class="most">Bebidas</h2>
+    <div class="cards-container">
+        <div class="card">
+            <img style="width: 268px;" src="images/refrigerante.jpg" alt="Delicious Pizza 1" class="card-image">
+                    <h2>Refrigerante</h2>
+                    <p class="preço">2,0L | R$ 11,00<br>1,5L | R$ 10,00</p>
+        </div>
+        <div class="card">
+            <img style="width: 268px;" src="images/refrigerante.jpg" alt="Delicious Pizza 1" class="card-image">
+                    <h2>Refrigerante</h2>
+                    <p class="preço">1L | R$ 8,00<br>
+                    600ML | R$ 7,00</p>
+        </div>
+        
+        <div class="card">
+            <img style="width: 268px;" src="images/água.avif" alt="Delicious Pizza 1" class="card-image">
+                    <h2>Água</h2>
+                    <p class="preço">
+                    S/GÁS | R$ 2,50<br>
+                    C/GÁS | R$ 3,00</p>
+        </div>
+        <div class="card">
+            <img style="width: 268px;" src="images/silhueta-de-cerveja-desenhada-a-mao_23-2150882798.jpg" alt="Delicious Pizza 1" class="card-image">
+                <h2>Cerveja</h2>   
+                <p class="preço">
+                    LATA | R$ 6,00</p>
+        </div>
+        <div class="card">
+            <img style="width: 268px;" src="images/silhueta-de-cerveja-desenhada-a-mao_23-2150882798.jpg" alt="Delicious Pizza 1" class="card-image">
+                <h2>Cerveja</h2>   
+                <p class="preço">
+                    Longneck | R$ 9,00</p>
+        </div>
+        <div class="card">
+            <img style="width: 268px;" src="images/refrigerante.jpg" alt="Delicious Pizza 1" class="card-image">
+                    <h2>Refrigerante</h2>
+                    <p class="preço">LATA | R$ 5,50</p>
+        </div>
+        <div class="card">
+            <img style="width: 268px;" src="images/suco.avif" alt="Delicious Pizza 1" class="card-image">
+                    <h2>Suco</h2>
+                    <p class="preço">
+                    LATA | R$ 6,00</p>
+        </div>
+        <div class="card">
+            <img style="width: 268px;" src="images/suco.avif" alt="Delicious Pizza 1" class="card-image">
+                    <h2>Suco de laranja (copo)</h2>
+                    <p class="preço">
+                    COPO | R$ 7,00</p>
+        </div>
+        <div class="card">
+            <img style="width: 268px;" src="images/suco.avif" alt="Delicious Pizza 1" class="card-image">
+                    <h2>Suco de laranja (jarra)</h2>
+                    <p class="preço">
+                    JARRA | R$ 15,00</p>
+        </div>
+        
+        <div class="card">
+            <img style="width: 268px;" src="images/gin-e-coquetel-tonico-no-copo-no-fundo-branco_1308-114008.jpg" alt="Delicious Pizza 1" class="card-image">
+                    <h2>H20</h2>
+                    <p class="preço"> R$6,00</p>
+        </div>
+        <div class="card">
+            <img style="width: 268px;" src="images/ice.jpg" alt="Delicious Pizza 1" class="card-image">
+                    <h2>ICE</h2>
+                    <p class="preço"> R$ 9,00</p>
+        </div>
+        <div class="card">
+            <img style="width: 268px;" src="images/energético.avif" alt="Delicious Pizza 1" class="card-image">
+                    <h2>Energético</h2>
+                    <p class="preço"> R$ 12,00</p>
+        </div>
+    </div>
 </main>
 
 
